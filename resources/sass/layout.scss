@@ -1,0 +1,71 @@
+body {
+    background: #f8f9fe;
+}
+
+nav.navbar{
+    background-color: #163D50;
+    a,.nav-link {
+        color: white;
+        font-size: 16px;
+        transition: 0.3s ease;
+        &:hover {
+            opacity: .7;
+            color: white;
+        }
+    }
+
+    .dropdown-item {
+        color: initial;
+        &:hover {
+            color: initial;
+            background-color: transparent;
+        }
+    }
+}
+
+.card-header {
+    background-color: #163D50;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+}
+
+.content {
+    font-size: 16px;
+}
+
+table {
+
+    td, th {
+        vertical-align: middle !important;
+    }
+
+    .btn {
+        width: 40px;
+        height: 40px;
+        margin-right: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+
+        i {
+            font-size: 1.15rem;
+        }
+    }
+
+    .actions {
+        display: flex;
+        align-items: center;
+    }
+
+    img {
+        width: 100px;
+        height: 60px;
+        object-fit: cover;
+        display: block;
+        background-color: #fbfbfb;
+    }
+}
