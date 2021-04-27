@@ -2,6 +2,8 @@
 
 Simple CRUD app for recruitment task [Task](https://github.com/clean-commit/laravel-developer-recruitment-task):
 
+Project needs installation of tools listed here: https://github.com/spatie/image-optimizer#optimization-tools
+
 Installation
 1. composer install
 2. npm install && npm run dev
